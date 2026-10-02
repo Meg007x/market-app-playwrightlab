@@ -28,3 +28,6 @@ test('TC03 Login เจ้าของตลาด ใส่ pwd ผิด', asy
   // เช็กว่ายังคงค้างอยู่ที่หน้า Login (ปุ่มเข้าสู่ระบบยังอยู่)
   await expect(page.getByRole('button', { name: 'เข้าสู่ระบบ' })).toBeVisible();
 });
+
+
+//67
